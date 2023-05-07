@@ -58,7 +58,7 @@
                     >
 
                     <a href="tel:+48111111111" class="header-contacts-item"
-                        ><svg class="icon-contact icon-phone">
+                        ><svg class="icon-contact icon-smartphone">
                             <use
                                 href="./images/icons.svg#icon-smartphone"
                             ></use>
@@ -453,6 +453,27 @@
                             </a>
                         </div>
                     </div>
+                    <div class="sign-up">
+                        <form class="sign-up-form">
+                            <label class="sign-up-label"
+                                >ZAPISZ SIĘ DO NEWSLETTERA
+                                <input
+                                    class="sign-up-input"
+                                    type="email"
+                                    name="email"
+                                    placeholder="E-mail"
+                                />
+                            </label>
+                        </form>
+                    </div>
+                    <div class="footer-btn">
+                        <button type="button" class="sign-up-btn">
+                            Zapisz się
+                            <svg class="sign-up-icon">
+                                <use href="./images/icons.svg#icon-send"></use>
+                            </svg>
+                        </button>
+                    </div>
                 </div>
             </div>
         </footer>
@@ -461,6 +482,91 @@
                 <button type="button" class="close-btn" data-modal-close>
                     X
                 </button>
+                <p class="form-tite">Zostaw swoje dane w formularzu poniżej</p>
+                <div class="form-flexbox">
+                    <div class="form">
+                        <p class="form-label">Imię</p>
+                        <form class="modal-form">
+                            <label class="input">
+                                <svg class="icon-form">
+                                    <use
+                                        href="./images/icons.svg#icon-person"
+                                    ></use>
+                                </svg>
+                                <input
+                                    type="text"
+                                    name="username"
+                                    class="form-input"
+                                />
+                            </label>
+                        </form>
+                    </div>
+                    <div class="form">
+                        <p class="form-label">Telefon</p>
+                        <form class="modal-form">
+                            <label class="input">
+                                <svg class="icon-form">
+                                    <use
+                                        href="./images/icons.svg#icon-phone"
+                                    ></use>
+                                </svg>
+                                <input
+                                    type="tel"
+                                    name="phonenumber"
+                                    class="form-input"
+                                />
+                            </label>
+                        </form>
+                    </div>
+                    <div class="form">
+                        <p class="form-label">Email</p>
+                        <form class="modal-form">
+                            <label class="input">
+                                <svg class="icon-form">
+                                    <use
+                                        href="./images/icons.svg#icon-email"
+                                    ></use>
+                                </svg>
+                                <input
+                                    type="email"
+                                    name="email"
+                                    class="form-input"
+                                />
+                            </label>
+                        </form>
+                    </div>
+                    <div class="form-comment">
+                        <form>
+                            <label class="form-label">Komentarz</label>
+                            <div class="input-comment">
+                                <textarea
+                                    type="text"
+                                    name="comment"
+                                    placeholder="Wprowadź tekst"
+                                ></textarea>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="form-checkbox">
+                    <form>
+                        <input
+                            type="checkbox"
+                            name="acceptrules"
+                            id="acceptrules"
+                        />
+                        <label for="acceptrules"
+                            >Oświadczam iż akceptuję
+                            <span class="rule-accept">Regulamin</span> i
+                            <span class="rule-accept"
+                                >Politykę Prywatności.</span
+                            ></label
+                        >
+                    </form>
+                </div>
+                <div class="form-button">
+                    <button type="submit" class="submit-btn">Wyślij</button>
+                </div>
             </div>
         </div>
         <script src="./js/modal.js"></script>
