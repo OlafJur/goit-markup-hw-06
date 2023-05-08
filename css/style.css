@@ -335,6 +335,9 @@ h2 {
     padding: 12px;
     width: 20px;
     height: 20px;
+
+    transition: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link:is(:hover, :focus) {
@@ -362,6 +365,9 @@ h2 {
     height: 92px;
     border: 1px solid #afb1b8;
     border-radius: 4px;
+
+    transition: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .client-item {
     fill: var(--scnd-font-color);
