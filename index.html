@@ -425,6 +425,7 @@
                             >+48 111 111 111</a
                         >
                     </address>
+                    
                     <div class="join-us">
                         <p class="join-us-text">DOŁĄCZ DO NAS</p>
                         <div class="join-us-flex">
@@ -484,9 +485,9 @@
                 </button>
                 <p class="form-tite">Zostaw swoje dane w formularzu poniżej</p>
                 <div class="form-flexbox">
-                    <div class="form">
-                        <p class="form-label">Imię</p>
-                        <form class="modal-form">
+                    <form class="modal-form">
+                        <div class="form">
+                          <p class="form-label">Imię</p>
                             <label class="input">
                                 <svg class="icon-form">
                                     <use
@@ -499,11 +500,9 @@
                                     class="form-input"
                                 />
                             </label>
-                        </form>
-                    </div>
-                    <div class="form">
-                        <p class="form-label">Telefon</p>
-                        <form class="modal-form">
+                             </div>
+                           <div class="form">
+                          <p class="form-label">Telefon</p>
                             <label class="input">
                                 <svg class="icon-form">
                                     <use
@@ -516,11 +515,9 @@
                                     class="form-input"
                                 />
                             </label>
-                        </form>
-                    </div>
-                    <div class="form">
-                        <p class="form-label">Email</p>
-                        <form class="modal-form">
+                             </div>
+                          <div class="form">
+                         <p class="form-label">Email</p>
                             <label class="input">
                                 <svg class="icon-form">
                                     <use
@@ -533,38 +530,28 @@
                                     class="form-input"
                                 />
                             </label>
-                        </form>
-                    </div>
-                    <div class="form-comment">
-                        <form>
-                            <label class="form-label">Komentarz</label>
-                            <div class="input-comment">
-                                <textarea
+                            </div>
+                             <div class="form-comment">
+                               <label class="form-label">Komentarz</label>
+                                 <div class="input-comment">
+                                     <textarea
                                     type="text"
                                     name="comment"
                                     placeholder="Wprowadź tekst"
-                                ></textarea>
+                                     ></textarea>
+                                 </div>
                             </div>
-                        </form>
-                    </div>
-                </div>
-                <div class="form-checkbox">
-                    <form>
-                        <input
-                            type="checkbox"
-                            name="acceptrules"
-                            id="acceptrules"
-                        />
-                        <label for="acceptrules"
-                            >Oświadczam iż akceptuję
-                            <span class="rule-accept">Regulamin</span> i
-                            <span class="rule-accept"
-                                >Politykę Prywatności.</span
-                            ></label
-                        >
-                    </form>
-                </div>
-                <div class="form-button">
+                            </div>
+                         <div class="form-checkbox">
+                            <input class="checkbox" type="checkbox" name="acceptrules" id="acceptrules" />
+                            <label for="acceptrules">
+                              <svg class="checkbox-icon">
+                                <use href="./images/icons.svg#icon-checkbox"></use>
+                              </svg>
+                              <span class="checkbox-label">Oświadczam, że akceptuję<span class="rule-accept"> Regulamin </span> i <span class="rule-accept">Politykę Prywatności</span>.</span>
+                            </label>
+                   </div>
+                   <div class="form-button">
                     <button type="submit" class="submit-btn">Wyślij</button>
                 </div>
             </div>
