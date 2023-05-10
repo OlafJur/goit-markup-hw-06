@@ -397,6 +397,7 @@ h2 {
     justify-content: center;
     align-items: center;
 }
+
 .footer-address-wrapper {
     margin-top: 20px;
     font-style: normal;
@@ -794,19 +795,28 @@ textarea {
     height: 13px;
     fill: white;
     border: 1px solid var(--main-font-color);
+    border-radius: 2px;
 }
-
+.checkbox-flexbox {
+    display: inline-flex;
+    align-items: center;
+}
 .checkbox:checked + label .checkbox-icon {
     background-color: #2196f3;
+    border: none;
+    width: 15px;
+    height: 16px;
 }
 
 .checkbox-label {
-    display: inline-block;
+    display: inline-flex;
     margin-left: 8px;
+    padding-top: 4px;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--scnd-font-color);
+    white-space: pre-wrap;
 }
 
 .rule-accept {
