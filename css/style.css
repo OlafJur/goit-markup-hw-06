@@ -392,12 +392,16 @@ h2 {
     background: var(--main-background);
     color: white;
 }
+
 .footer-flex {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
+footer > .logo {
+    display: flex;
+    flex-direction: column;
+}
 .footer-address-wrapper {
     margin-top: 20px;
     font-style: normal;
@@ -428,6 +432,7 @@ h2 {
 }
 
 .join-us {
+    margin-bottom: 35px;
     margin-left: 70px;
     display: flex;
     flex-direction: column;
@@ -466,6 +471,7 @@ h2 {
 .sign-up {
     display: flex;
     margin-left: 78px;
+    margin-bottom: 30px;
 }
 
 .sign-up-label {
@@ -500,6 +506,7 @@ h2 {
 .sign-up-btn {
     display: flex;
     align-items: center;
+    margin-bottom: 33px;
     width: 200px;
     height: 50px;
     gap: 24px;
@@ -791,8 +798,8 @@ textarea {
 
 .checkbox-icon {
     display: inline-block;
-    width: 14px;
-    height: 13px;
+    width: 13px;
+    height: 14px;
     fill: white;
     border: 1px solid var(--main-font-color);
     border-radius: 2px;
